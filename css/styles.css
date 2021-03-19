@@ -51,14 +51,6 @@ button {
     background: var(--dark-bg-color);
 }
 
-.logo-header {
-    font-family: Raleway;
-    font-weight: 700;
-    font-size: 26px;
-    line-height: .83;
-    letter-spacing: 0.03em;
-}
-
 .web {
     color: var(--accent-color);
 }
@@ -73,16 +65,20 @@ button {
 .button {
     font-weight: 700;;
     font-size: 16px;
-    line-height: .87;
+    line-height: 1.87;
     letter-spacing: 0.06em;
     background: var(--accent-color);
     color: var(--content-color);
 }
 
+button {
+    font-family: inherit;
+  }
+
 .button-filtr {
 font-weight: 500;
 font-size: 16px;
-line-height: .61;
+line-height: 1.62;
 letter-spacing: 0.03em;
 color: var(--title-color);
 }
@@ -92,10 +88,25 @@ button:focus {
     background: var(--accent-color);
 }
 
+.filtrs {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: var(--title-color)
+    }
+
+.main-filtrs {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.87;
+    letter-spacing: 0.03em;
+    color: var(--main-text-color);
+        }
 .page-title {
     font-weight: 900;
     font-size: 44px;
-    line-height: .73;
+    line-height: 1.36;
     letter-spacing: 0.06em;
     text-transform: uppercase; 
     color: var(--content-color);
@@ -104,7 +115,7 @@ button:focus {
 .main-team-requirement {
     font-weight: 700;
     font-size: 14px;
-    line-height: .87;
+    line-height: 1.14;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--title-color);
@@ -113,7 +124,7 @@ button:focus {
 .team-requirement {
     font-weight: 400;
     font-size: 14px;
-    line-height: .58;
+    line-height: 1.71;
     letter-spacing: 0.03em;
     color: var(--main-text-color);
 }
@@ -121,7 +132,7 @@ button:focus {
 .what-are-we-doing {
     font-weight: 700;
     font-size: 36px;
-    line-height: .85;
+    line-height: 1.16;
     letter-spacing: 0.03em;
     color: var(--title-color);
 }
@@ -129,7 +140,7 @@ button:focus {
 .our-team {
     font-weight: 700;
     font-size: 36px;
-    line-height: .85;
+    line-height: 1.16;
     letter-spacing: 0.03em;
     color: var(--title-color);
 }
@@ -137,31 +148,15 @@ button:focus {
 .names {
     font-weight: 500;
     font-size: 16px;
-    line-height: .84;
+    line-height: 1.18;
     letter-spacing: 0.03em;
     color: var(--title-color);
-}
-
-.filtrs {
-font-weight: 700;
-font-size: 18px;
-line-height: .5;
-letter-spacing: 0.06em;
-color: var(--title-color)
-}
-
-.main-filtrs {
-font-weight: 400;
-font-size: 16px;
-line-height: .53;
-letter-spacing: 0.03em;
-color: var(--main-text-color);
 }
 
 .team-profession {
     font-weight: 400;
     font-size: 16px;
-    line-height: .84;
+    line-height: 1.18;
     letter-spacing: 0.03em;
     color: var(--main-text-color);
 }
@@ -169,7 +164,7 @@ color: var(--main-text-color);
 .header {
     font-weight: 500;
     font-size: 14px;
-    line-height: .87;
+    line-height: 1.14;
     letter-spacing: 0.02em;
     color: var(--title-color);
 }
@@ -177,18 +172,35 @@ color: var(--main-text-color);
 .header-adress {
     font-weight: 500;
     font-size: 14px;
-    line-height: .87;
+    line-height: 1.14;
     letter-spacing: 0.02em;
     color: var(--main-text-color);
+}
+
+.logo-header {
+    font-family: Raleway;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
 }
 
 .footer-adress {
 font-weight: 400;
 font-size: 14px;
-line-height: .87;
+line-height: 1.71;
 letter-spacing: 0.03em;
 color: var(--content-color);
 }
+
+.footer-social {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6)
+}
+
 .footer {
     font-weight: 500;
     font-size: 14px;
@@ -200,7 +212,7 @@ color: var(--content-color);
     font-family: Raleway;
     font-weight: 700;
     font-size: 26px;
-    line-height: .83;
+    line-height: 1.19;
     letter-spacing: 0.03em;
 }
 
